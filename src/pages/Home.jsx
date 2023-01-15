@@ -1,11 +1,13 @@
 import { ShoppingCartSharp } from "@mui/icons-material";
 import {
+  Backdrop,
   Button,
   Card,
   CardActionArea,
   CardActions,
   CardContent,
   CardMedia,
+  CircularProgress,
   Grid,
   IconButton,
   Rating,
@@ -18,7 +20,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../features/cart-slice";
 import { fetchAllProducts } from "../features/product-slice";
 import { useSearchParams } from "react-router-dom";
-import Swal from "sweetalert2";
 import { Alert } from "../utlis";
 function Home() {
   const [searchParams] = useSearchParams();
@@ -49,6 +50,20 @@ function Home() {
     Alert({ msg: "Added to cart", time: 1500, icon: "success" });
 
     dispatch(addToCart({ product, quantity: 1 }));
+  }
+
+  if (state.loading) {
+    return (
+      <Backdrop
+        sx={{
+          color: theme.palette.primary.main,
+          zIndex: (theme) => theme.zIndex.drawer + 1,
+        }}
+        open={state.loading}
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
+    );
   }
 
   return (
