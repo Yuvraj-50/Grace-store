@@ -21,9 +21,11 @@ To run tests, run the following command
 ## Screenshots
 
 - sign In / sign up page
-  ![App Screenshot]("./readme/images/signin.png")
+  ![App Screenshot](./readme/images/signin.png?raw=true "sign In / sign up page")
 - home page
+
   ![App Screenshot]("./readme/images/home.png")
+
 - cart
   ![App Screenshot]("./readme/images/cart.png")
 - address page
