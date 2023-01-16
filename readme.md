@@ -31,7 +31,8 @@ To run tests, run the following command
 - payment page
   ![App Screenshot]("./readme/images/payment-page.png")
 - order summary page
-  ![App Screenshot]("./readme/images/summary-page.png")
+
+  ![App Screenshot]("./readme/images/summary-page.png/468x300?468x300?text=App+Screenshot+Here")
 
 ## Installation
 
