@@ -21,7 +21,7 @@ To run tests, run the following command
 ## Screenshots
 
 - sign In / sign up page
-  ![App Screenshot](https://github.com/Yuvraj-50/Grace-store/blob/master/readme/images/signin.png/468x300?text=App+Screenshot+Here)
+  ![App Screenshot](./readme/images/signin.png?raw=true "sign In / sign up page")
 
 - home page
 
