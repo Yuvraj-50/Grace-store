@@ -2,7 +2,7 @@
 
 Grace store - ecommerce website .
 
-## Features
+# Features
 
 - sign In / sign up
 - logout
@@ -41,3 +41,7 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
+
+## Demo
+
+Insert gif or link to demo
