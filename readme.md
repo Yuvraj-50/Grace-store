@@ -21,11 +21,13 @@ To run tests, run the following command
 ## Screenshots
 
 - sign In / sign up page
-  ![App Screenshot](./readme/images/signin.png?raw=true "sign In / sign up page")
+    <!-- ![App Screenshot](./readme/images/signin.png?raw=true "sign In / sign up page") -->
+
+  <img src="./readme/images/signin.png" alt="Alt text" title="Optional title" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 - home page
 
-  ![App Screenshot](./readme/images/home.png?raw=true "home page")
+  <!-- ![App Screenshot](./readme/images/home.png?raw=true "home page") -->
 
 - cart
 
