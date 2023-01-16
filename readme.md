@@ -22,19 +22,25 @@ To run tests, run the following command
 
 - sign In / sign up page
   ![App Screenshot](./readme/images/signin.png?raw=true "sign In / sign up page")
+
 - home page
 
-  ![App Screenshot]("./readme/images/home.png")
+  ![App Screenshot](./readme/images/home.png?raw=true "home page")
 
 - cart
-  ![App Screenshot]("./readme/images/cart.png")
+
+  ![App Screenshot](./readme/images/cart.png?raw=true "cart")
+
 - address page
-  ![App Screenshot]("./readme/images/address-page.png")
+
+  ![App Screenshot](./readme/images/address-page.png?raw=true "address page")
+
 - payment page
-  ![App Screenshot]("./readme/images/payment-page.png")
+  <img src="./readme/images/payment-page.png">
+
 - order summary page
 
-  ![App Screenshot]("./readme/images/summary-page.png/468x300?468x300?text=App+Screenshot+Here")
+  ![App Screenshot](./readme/images/summary-page.png/?raw=true "order summary page")
 
 ## Installation
 
